@@ -2,7 +2,7 @@ import React from 'react'
 import "./Header.css"
 import MenuIcon from '@material-ui/icons/Menu';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
-import { Avatar, TextField } from '@material-ui/core';
+import { Avatar, TextField, IconButton } from '@material-ui/core';
 
 // import MenuIcon from '@mui/icons-material/Menu';
 
@@ -10,7 +10,9 @@ import { Avatar, TextField } from '@material-ui/core';
 const Header = () => {
   return (
     <div className='header'>
-      <div className='header__left'><MenuIcon fontSize='large'/>
+      <div className='header__left'>
+        <IconButton><MenuIcon fontSize='large'/></IconButton>
+        
       <img src="https://www.megaidea.net/wp-content/uploads/2020/10/Baby-Yoda-Clipart.png" alt="human_logo" /></div>
       
       <div className='header__menu'>

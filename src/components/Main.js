@@ -13,11 +13,14 @@ const Main = () => {
 
   const handleSubmit =(e)=>{
 e.preventDefault();
-setPosts([input,...posts]);
+if (input.title && input.text){
+  setPosts([input,...posts]);
 setInput({
   title: "",
   text: "",
 })
+} else { alert("Add your post")}
+
 
   }
   return (
