@@ -2,3 +2,16 @@
     display: flex;
     flex-direction: column;
 }
+.main__input{
+    padding: 1rem;
+margin: 1rem;
+}
+.main_inputForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main__inputFormText{
+    flex: 0.9;
+    
+}

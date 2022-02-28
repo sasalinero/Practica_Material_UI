@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Post.css"
 
-const Post = () => {
+const Post = ({title, text}) => {
   return (
-    <div className='post'>Post</div>
+    <div className='post'>
+      <h1>{title}</h1>
+      <h4>{text}</h4>
+      </div>
   )
 }
 
