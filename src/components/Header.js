@@ -10,9 +10,9 @@ import { Avatar, TextField } from '@material-ui/core';
 const Header = () => {
   return (
     <div className='header'>
-      <div className='header__left'></div>
-      <MenuIcon fontSize='large'/>
-      <img src="https://www.megaidea.net/wp-content/uploads/2020/10/Baby-Yoda-Clipart.png" alt="human_logo" />
+      <div className='header__left'><MenuIcon fontSize='large'/>
+      <img src="https://www.megaidea.net/wp-content/uploads/2020/10/Baby-Yoda-Clipart.png" alt="human_logo" /></div>
+      
       <div className='header__menu'>
         <h3>Home</h3>
         <h3>Quick menu <span><KeyboardArrowDownIcon/></span></h3>
