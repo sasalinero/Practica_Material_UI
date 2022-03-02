@@ -1,6 +1,7 @@
 .main{
     display: flex;
     flex-direction: column;
+    transform: translate(-120px);
 }
 .main__input{
     padding: 1rem;
