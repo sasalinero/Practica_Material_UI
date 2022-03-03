@@ -28,17 +28,16 @@ console.log(action);
                 ...state, 
                 isopen: action.isopen,
             }
-            case actionTypes.SET_USER:
-                return{
+        case actionTypes.SET_USER:
+            return{
                     ...state,
-                    use:action.user,
+                    user:action.user,
                 } 
-            default: return state
+        default: return state   
 
     }
 
 
 }
-
 
 export default reducer

@@ -1,5 +1,5 @@
 import "./App.css";
-import Longin from "./components/Login";
+import Login from "./components/Login";
 import Header from "./components/Header";
 import Sidebar from "./components/Sidebar";
 import Main from "./components/Main";
@@ -12,7 +12,7 @@ function App() {
       {" "}
       <Header />
       {!user ? (
-        <Longin />
+        <Login />
       ) : 
       
       (
