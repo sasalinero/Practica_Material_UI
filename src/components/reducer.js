@@ -5,6 +5,7 @@
 
 export const initialState= {
     isopen:false,
+    user: null,
 }
 
 //2º El tipo de acciones que vamos a inyectar en la manguera, el type es TOGGLE_MENU. 
@@ -12,6 +13,7 @@ export const initialState= {
 
 export const actionTypes={
     TOGGLE_MENU:"TOGGLE_MENU",
+    SET_USER: "SET_USER",
 }
 // 3º Escucha si en algun punto de la "manguera de datos se ha inyectado datos" 
 // y se ha alterado el estado inicial.
@@ -26,6 +28,11 @@ console.log(action);
                 ...state, 
                 isopen: action.isopen,
             }
+            case actionTypes.SET_USER:
+                return{
+                    ...state,
+                    use:action.user,
+                } 
             default: return state
 
     }

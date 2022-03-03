@@ -20,7 +20,8 @@ return(
 }
 //3º creamos la funcion useStateValue, que es la que nos va a facilitar el intercambio 
 //entre la capa y los componentes y los componentes y la capa
-// Con esto vamos a poder consumir el dto en cualquiera de los componentes, nos va a dar la variables isOpen o isTrue
+// Con esto vamos a poder consumir el dto en cualquiera de los componentes, nos va a dar la variables 
+//isOpen o isTrue
 // que nos va a dar un dispatch para poder inyectar cualquier variacion en la "manguera de datos."
 
 export const useStateValue =()=> useContext(StateContext)
